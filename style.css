@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "MaisonBook";
+  src: url("./fonts/fonnts.com-Maison_Neue_Book.ttf") format("ttf"), url("fonts/fonnts.com-Maison_Neue_Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MaisonBold";
+  src: url("./fonts/fonnts.com-Maison_Neue_Bold.ttf") format("ttf"), url("fonts/fonnts.com-Maison_Neue_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MaisonLight";
+  src: url("./fonts/fonnts.com-Maison_Neue_Light.ttf") format("ttf"), url("fonts/fonnts.com-Maison_Neue_Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: MaisonBook;
+}
+
+.font-maisonBook {
+  font-family: MaisonBook;
+}
+.font-maisonBold {
+  font-family: MaisonBold;
+}
+.font-maisonLight {
+  font-family: MaisonLight;
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+#ytb-link:hover {
+  color: white;
+}

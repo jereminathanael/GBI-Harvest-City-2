@@ -1,0 +1,23 @@
+$theme-colors: (
+  "primary": #0b92e0,
+  "danger": #ff0000,
+  "info": #0866ff,
+);
+
+$component-active-bg: #0b92e0;
+$component-active-color: #fff;
+
+$btn-outline-color: #ff0000;
+$btn-outline-border-width: 2px;
+
+.btn-outline-danger {
+  color: $btn-outline-color;
+  border-color: $btn-outline-color;
+  &:hover {
+    background-color: $btn-outline-color;
+    color: white;
+  }
+}
+
+// import all bootstrap
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
